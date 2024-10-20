@@ -77,7 +77,8 @@ function App() {
               control={
                 <Checkbox sx={{...checkBoxStyle }}
                 checked={checked}
-                onChange={(e,check)=>setChecked(check)}
+                onChange={(_, check) => setChecked(check)}
+
                 />
               }
             /></Grid2>

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ListType } from '../interface/List';
 import { Avatar, Box, keyframes } from '@mui/material';
 
