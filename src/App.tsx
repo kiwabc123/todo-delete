@@ -6,6 +6,7 @@ import { ItemList } from './component/ItemList';
 import { Table } from './component/Table';
 import { listEnum } from './enum/List';
 import { Checkbox, FormControlLabel } from '@mui/material';
+import NoteBox from './component/NoteBox';
 const mockLists = [
   {
     type: 'Fruit',
@@ -68,6 +69,7 @@ function App() {
   const [checked, setChecked] = React.useState(true);
   return (
     <>
+    <NoteBox />
       <div style={outerContainerStyle}>
         <div style={containerStyle}>
           <Grid2 container display={'flex'} justifyContent={"space-between"}>
